@@ -6,7 +6,7 @@ How to Use:
 
 compile
 
-gcc trafficfilter.cpp -I/usr/include/opencv/ -lcv -lcvaux -lhighgui -lm -lcxcore
+gcc trafficfilter.cpp -I/usr/include/opencv/ -lopencv_core -lopencv_video -lopencv_imgproc -lopencv_objdetect -lopencv_highgui
 
 followed by executing
 
